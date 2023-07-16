@@ -1,0 +1,38 @@
+.card {
+  border: 1px solid #f3f3f3;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  span {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  b {
+    font-size: 13px;
+  }
+
+  .plus {
+    cursor: pointer;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  &:hover {
+    box-shadow: 0px 10px 34px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+  }
+
+  .favorite {
+    cursor: pointer;
+    position: absolute;
+  }
+}
